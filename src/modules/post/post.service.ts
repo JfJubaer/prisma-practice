@@ -99,6 +99,7 @@ const learnAggregateAndGrouping = async () => {
     //         authorId: true
     //     }
     // })
+    // console.log('hitted')
 
     const result = await prisma.post.groupBy({
         by: ['title'],

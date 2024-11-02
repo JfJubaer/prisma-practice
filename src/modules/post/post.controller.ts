@@ -81,7 +81,9 @@ const learnAggregateAndGrouping = async (req: Request, res: Response) => {
             message: "Result!",
             data: result
         })
+        // console.log('hit controller')
     } catch (err) {
+        console.log(err)
         res.send(err)
     }
 }
